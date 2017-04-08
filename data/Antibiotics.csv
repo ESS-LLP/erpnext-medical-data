@@ -1,0 +1,186 @@
+"Data Import Template"
+"Table:","Antibiotics"
+""
+""
+"Notes:"
+"Please do not change the template headings."
+"First data column must be blank."
+"If you are uploading new records, leave the ""name"" (ID) column blank."
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present."
+"Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish."
+"For updating, you can update only selective columns."
+"You can only upload upto 5000 records in one go. (may be less in some cases)"
+""
+"DocType:","Antibiotics",""
+"Column Labels:","ID","Antibiotic Name"
+"Column Name:","name","antibiotic_name"
+"Mandatory:","Yes","Yes"
+"Type:","Data (text)","Data"
+"Info:","",""
+"Start entering data below this line"
+,,Amoxicillin
+,,Ampicillin
+,,Bacampicillin
+,,Carbenicillin
+,,Cloxacillin
+,,Dicloxacillin
+,,Flucloxacillin
+,,Mezlocillin
+,,Nafcillin
+,,Oxacillin
+,,Penicillin G
+,,Penicillin V
+,,Piperacillin
+,,Pivampicillin
+,,Pivmecillinam
+,,Ticarcillin
+,,Cefacetrile (cephacetrile)
+,,Cefadroxil (cefadroxyl)
+,,Cefalexin (cephalexin)
+,,Cefaloglycin (cephaloglycin)
+,,Cefalonium (cephalonium)
+,,Cefaloridine (cephaloradine)
+,,Cefalotin (cephalothin)
+,,Cefapirin (cephapirin)
+,,Cefatrizine
+,,Cefazaflur
+,,Cefazedone
+,,Cefazolin (cephazolin)
+,,Cefradine (cephradine)
+,,Cefroxadine
+,,Ceftezole
+,,Cefaclor
+,,Cefamandole
+,,Cefmetazole
+,,Cefonicid
+,,Cefotetan
+,,Cefoxitin
+,,Cefprozil (cefproxil)
+,,Cefuroxime
+,,Cefuzonam
+,,Cefcapene
+,,Cefdaloxime
+,,Cefdinir
+,,Cefditoren
+,,Cefetamet
+,,Cefixime
+,,Cefmenoxime
+,,Cefodizime
+,,Cefotaxime
+,,Cefpimizole
+,,Cefpodoxime
+,,Cefteram
+,,Ceftibuten
+,,Ceftiofur
+,,Ceftiolene
+,,Ceftizoxime
+,,Ceftriaxone
+,,Cefoperazone
+,,Ceftazidime
+,,Cefclidine
+,,Cefepime
+,,Cefluprenam
+,,Cefoselis
+,,Cefozopran
+,,Cefpirome
+,,Cefquinome
+,,Ceftobiprole
+,,Ceftaroline
+,,Cefaclomezine
+,,Cefaloram
+,,Cefaparole
+,,Cefcanel
+,,Cefedrolor
+,,Cefempidone
+,,Cefetrizole
+,,Cefivitril
+,,Cefmatilen
+,,Cefmepidium
+,,Cefovecin
+,,Cefoxazole
+,,Cefrotil
+,,Cefsumide
+,,Cefuracetime
+,,Ceftioxide
+,,Ceftazidime/Avibactam
+,,Ceftolozane/Tazobactam
+,,Aztreonam
+,,"Imipenem,"
+,,Imipenem/cilastatin
+,,Doripenem
+,,Meropenem
+,,Ertapenem
+,,Azithromycin
+,,Erythromycin
+,,Clarithromycin
+,,Dirithromycin
+,,Roxithromycin
+,,Telithromycin
+,,Clindamycin
+,,Lincomycin
+,,Pristinamycin
+,,Quinupristin/dalfopristin
+,,Amikacin
+,,Gentamicin
+,,Kanamycin
+,,Neomycin
+,,Netilmicin
+,,Paromomycin
+,,Streptomycin
+,,Tobramycin
+,,Flumequine
+,,Nalidixic acid
+,,Oxolinic acid
+,,Piromidic acid
+,,Pipemidic acid
+,,Rosoxacin
+,,Ciprofloxacin
+,,Enoxacin
+,,Lomefloxacin
+,,Nadifloxacin
+,,Norfloxacin
+,,Ofloxacin
+,,Pefloxacin
+,,Rufloxacin
+,,Balofloxacin
+,,Gatifloxacin
+,,Grepafloxacin
+,,Levofloxacin
+,,Moxifloxacin
+,,Pazufloxacin
+,,Sparfloxacin
+,,Temafloxacin
+,,Tosufloxacin
+,,Besifloxacin
+,,Clinafloxacin
+,,Gemifloxacin
+,,Sitafloxacin
+,,Trovafloxacin
+,,Prulifloxacin
+,,Sulfamethizole
+,,Sulfamethoxazole
+,,Sulfisoxazole
+,,Trimethoprim-Sulfamethoxazole
+,,Demeclocycline
+,,Doxycycline
+,,Minocycline
+,,Oxytetracycline
+,,Tetracycline
+,,Tigecycline
+,,Chloramphenicol
+,,Metronidazole
+,,Tinidazole
+,,Nitrofurantoin
+,,Vancomycin
+,,Teicoplanin
+,,Telavancin
+,,Linezolid
+,,Cycloserine 2
+,,Rifampin
+,,Rifabutin
+,,Rifapentine
+,,Rifalazil
+,,Bacitracin
+,,Polymyxin B
+,,Viomycin
+,,Capreomycin
