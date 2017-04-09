@@ -11,92 +11,92 @@
 "For updating, you can update only selective columns."
 "You can only upload upto 5000 records in one go. (may be less in some cases)"
 ""
-"DocType:","Item","","","","","","~","~","~","~","~","~","~","~","~"
-"Column Labels:","ID","Item Code","Item Group","Default Unit of Measure","Maintain Stock","Item Name","","","","","","","","",""
-"Column Name:","name","item_code","item_group","stock_uom","is_stock_item","item_name","~","~","~","~","~","~","~","~","~"
-"Mandatory:","Yes","Yes","Yes","Yes","Yes","No","","","","","","","","",""
-"Type:","Data (text)","Data","Link","Link","Check","Data","","","","","","","","",""
-"Info:","","","Valid Item Group","Valid UOM","0 or 1","","","","","","","","","",""
+"DocType:","Item","","","","","","","","~","~","~","~","~","~","~","~","~","~"
+"Column Labels:","ID","Item Code","Item Group","Default Unit of Measure","Maintain Stock","Item Name","Is Purchase Item","Is Sales Item","","","","","","","","","",""
+"Column Name:","name","item_code","item_group","stock_uom","is_stock_item","item_name","is_purchase_item","is_sales_item","~","~","~","~","~","~","~","~","~","~"
+"Mandatory:","Yes","Yes","Yes","Yes","Yes","No","No","No","","","","","","","","","",""
+"Type:","Data (text)","Data","Link","Link","Check","Data","Check","Check","","","","","","","","","",""
+"Info:","","","Valid Item Group","Valid UOM","0 or 1","","0 or 1","0 or 1","","","","","","","","","",""
 "Start entering data below this line"
-"","",RFT,Laboratory,Unit,0,Renal Function Test
-"","",MCH,Laboratory,Unit,0,MCH
-"","",LDL,Laboratory,Unit,0,LDL (Serum)
-"","",GTT,Laboratory,Unit,0,GTT
-"","",HDL,Laboratory,Unit,0,HDL (Serum)
-"","",BILT,Laboratory,Unit,0,Bilirubin Total
-"","",BILD,Laboratory,Unit,0,Bilirubin Direct
-"","",BIL,Laboratory,Unit,0,Bilirubin
-"","",UA,Laboratory,Unit,0,Uric Acid
-"","",TSH,Laboratory,Unit,0,TSH
-"","",T4,Laboratory,Unit,0,T4
-"","",T3,Laboratory,Unit,0,T3
-"","",TFT,Laboratory,Unit,0,Thyroid Function Tests
-"","",Ra,Laboratory,Unit,0,Rheumatoid Factor
-"","",Ca,Laboratory,Unit,0,Calcium Ca++
-"","",FBS,Laboratory,Unit,0,Blood Sugar (Fasting)
-"","",URC,Laboratory,Unit,0,Urine Culture
-"","",CHO,Laboratory,Unit,0,Cholesterol
-"","",LPT,Laboratory,Unit,0,Fasting Lipid Profile
-"","",ASO,Laboratory,Unit,0,"ASO Titre (Quantitative, Turbidimetry)"
-"","",ACCP,Laboratory,Unit,0,ANTI CYCLIC CITRULINATED PEPTIDE
-"","",PSA,Laboratory,Unit,0,PSA
-"","",mALB,Laboratory,Unit,0,MicroAlbumin
-"","",Ph,Laboratory,Unit,0,Phosphorus
-"","",AC,Laboratory,Unit,0,ACID PHOSPAHATE
-"","",SERUM C3 LEVEL,Laboratory,Unit,0,SERUM C3 LEVEL
-"","",P - ANCA,Laboratory,Unit,0,P - ANCA
-"","",C - ANCA,Laboratory,Unit,0,C - ANCA
-"","",AFP (ECLIA),Laboratory,Unit,0,AFP (ECLIA)
-"","",CEA (ECLIA),Laboratory,Unit,0,CEA (ECLIA)
-"","",HOMOCYSTEINE,Laboratory,Unit,0,HOMOCYSTEINE QUANTITATIVE SERUM
-"","",Cortisol - 8 AM,Laboratory,Unit,0,Cortisol - 8 AM
-"","",E2 ECLIA,Laboratory,Unit,0,Estradiol (E2) (ECLIA)
-"","",ANTI PL,Laboratory,Unit,0,ANTI PHOSPHOLIPID IgM
-"","",APTT,Laboratory,Unit,0,APTT
-"","",ANA-E,Laboratory,Unit,0,ANA (ELISA)
-"","",UC,Laboratory,Unit,0,URINE CULTURE
-"","",PT,Laboratory,Unit,0,Prothrombin Time
-"","",PSR,Laboratory,Unit,0,Peripheral Smear Report
-"","",LFT,Laboratory,Unit,0,Liver Function Tests
-"","",URINEMICROSCOPICEXAM,Laboratory,Unit,0,Urine Microscopic Examination
-"","",SE,Laboratory,Unit,0,Serum Electrolytes
-"","",BRE,Laboratory,Unit,0,Blood Routine Examination
-"","",MCHC,Laboratory,Unit,0,MCHC
-"","",TGL,Laboratory,Unit,0,Triglyceride
-"","",UREA,Laboratory,Unit,0,Blood Urea
-"","",CRE,Laboratory,Unit,0,Creatinine
-"","",RBC,Laboratory,Unit,0,RBC Count
-"","",PLT,Laboratory,Unit,0,Platelet Count
-"","",AU,Laboratory,Unit,0,Albumin (AU)
-"","",SGPT,Laboratory,Unit,0,SGPT / ALT
-"","",ALP,Laboratory,Unit,0,Alkaline Phosphatase
-"","",ALB,Laboratory,Unit,0,Albumin
-"","",GGT,Laboratory,Unit,0,Glutamyl
-"","",GLO,Laboratory,Unit,0,Globulins
-"","",Na,Laboratory,Unit,0,Sodium (Na)
-"","",K,Laboratory,Unit,0,Potassium (K)
-"","",PRO,Laboratory,Unit,0,Protein
-"","",Cl,Laboratory,Unit,0,Chloride (Cl)
-"","",SU,Laboratory,Unit,0,Sugar
-"","",UAC,Laboratory,Unit,0,Urine Acetone
-"","",HB,Laboratory,Unit,0,Haemoglobin
-"","",VLDV,Laboratory,Unit,0,VLDL (Serum)
-"","",PPBS,Laboratory,Unit,0,Blood Sugar (PP)
-"","",SGOT ,Laboratory,Unit,0,SGOT / AST
-"","",MCV,Laboratory,Unit,0,MCV
-"","",DLC,Laboratory,Unit,0,DLC
-"","",PCV,Laboratory,Unit,0,PCV
-"","",TLC,Laboratory,Unit,0,TLC
-"","",Cortisol,Laboratory,Unit,0,Cortisol
-"","",ESR,Laboratory,Unit,0,ESR
-"","",CBC,Laboratory,Unit,0,Complete Haemogram
-"","",URE,Laboratory,Unit,0,Urine Routine Examination
-"","",BP,Laboratory,Unit,0,Bile Pigment
-"","",BSBP,Laboratory,Unit,0,Bile Salt / Pigment
-"","",BS,Laboratory,Unit,0,Bile Salt
-"","",RBS,Laboratory,Unit,0,Blood Sugar (Random)
-"","",HBsAg,Laboratory,Unit,0,HBsAg (Card)s
-"","",HIVC,Laboratory,Unit,0,HIV (CARD)
-"","",GCT,Laboratory,Unit,0,GCT
-"","",SFER,Laboratory,Unit,0,S . FERRITIN
+"","",RFT,Laboratory,Unit,0,Renal Function Test,0,1
+"","",MCH,Laboratory,Unit,0,MCH,0,1
+"","",LDL,Laboratory,Unit,0,LDL (Serum),0,1
+"","",GTT,Laboratory,Unit,0,GTT,0,1
+"","",HDL,Laboratory,Unit,0,HDL (Serum),0,1
+"","",BILT,Laboratory,Unit,0,Bilirubin Total,0,1
+"","",BILD,Laboratory,Unit,0,Bilirubin Direct,0,1
+"","",BIL,Laboratory,Unit,0,Bilirubin,0,1
+"","",UA,Laboratory,Unit,0,Uric Acid,0,1
+"","",TSH,Laboratory,Unit,0,TSH,0,1
+"","",T4,Laboratory,Unit,0,T4,0,1
+"","",T3,Laboratory,Unit,0,T3,0,1
+"","",TFT,Laboratory,Unit,0,Thyroid Function Tests,0,1
+"","",Ra,Laboratory,Unit,0,Rheumatoid Factor,0,1
+"","",Ca,Laboratory,Unit,0,Calcium Ca++,0,1
+"","",FBS,Laboratory,Unit,0,Blood Sugar (Fasting),0,1
+"","",URC,Laboratory,Unit,0,Urine Culture,0,1
+"","",CHO,Laboratory,Unit,0,Cholesterol,0,1
+"","",LPT,Laboratory,Unit,0,Fasting Lipid Profile,0,1
+"","",ASO,Laboratory,Unit,0,"ASO Titre (Quantitative, Turbidimetry)",0,1
+"","",ACCP,Laboratory,Unit,0,ANTI CYCLIC CITRULINATED PEPTIDE,0,1
+"","",PSA,Laboratory,Unit,0,PSA,0,1
+"","",mALB,Laboratory,Unit,0,MicroAlbumin,0,1
+"","",Ph,Laboratory,Unit,0,Phosphorus,0,1
+"","",AC,Laboratory,Unit,0,ACID PHOSPAHATE,0,1
+"","",SERUM C3 LEVEL,Laboratory,Unit,0,SERUM C3 LEVEL,0,1
+"","",P - ANCA,Laboratory,Unit,0,P - ANCA,0,1
+"","",C - ANCA,Laboratory,Unit,0,C - ANCA,0,1
+"","",AFP (ECLIA),Laboratory,Unit,0,AFP (ECLIA),0,1
+"","",CEA (ECLIA),Laboratory,Unit,0,CEA (ECLIA),0,1
+"","",HOMOCYSTEINE,Laboratory,Unit,0,HOMOCYSTEINE QUANTITATIVE SERUM,0,1
+"","",Cortisol - 8 AM,Laboratory,Unit,0,Cortisol - 8 AM,0,1
+"","",E2 ECLIA,Laboratory,Unit,0,Estradiol (E2) (ECLIA),0,1
+"","",ANTI PL,Laboratory,Unit,0,ANTI PHOSPHOLIPID IgM,0,1
+"","",APTT,Laboratory,Unit,0,APTT,0,1
+"","",ANA-E,Laboratory,Unit,0,ANA (ELISA),0,1
+"","",UC,Laboratory,Unit,0,URINE CULTURE,0,1
+"","",PT,Laboratory,Unit,0,Prothrombin Time,0,1
+"","",PSR,Laboratory,Unit,0,Peripheral Smear Report,0,1
+"","",LFT,Laboratory,Unit,0,Liver Function Tests,0,1
+"","",URINEMICROSCOPICEXAM,Laboratory,Unit,0,Urine Microscopic Examination,0,1
+"","",SE,Laboratory,Unit,0,Serum Electrolytes,0,1
+"","",BRE,Laboratory,Unit,0,Blood Routine Examination,0,1
+"","",MCHC,Laboratory,Unit,0,MCHC,0,1
+"","",TGL,Laboratory,Unit,0,Triglyceride,0,1
+"","",UREA,Laboratory,Unit,0,Blood Urea,0,1
+"","",CRE,Laboratory,Unit,0,Creatinine,0,1
+"","",RBC,Laboratory,Unit,0,RBC Count,0,1
+"","",PLT,Laboratory,Unit,0,Platelet Count,0,1
+"","",AU,Laboratory,Unit,0,Albumin (AU),0,1
+"","",SGPT,Laboratory,Unit,0,SGPT / ALT,0,1
+"","",ALP,Laboratory,Unit,0,Alkaline Phosphatase,0,1
+"","",ALB,Laboratory,Unit,0,Albumin,0,1
+"","",GGT,Laboratory,Unit,0,Glutamyl,0,1
+"","",GLO,Laboratory,Unit,0,Globulins,0,1
+"","",Na,Laboratory,Unit,0,Sodium (Na),0,1
+"","",K,Laboratory,Unit,0,Potassium (K),0,1
+"","",PRO,Laboratory,Unit,0,Protein,0,1
+"","",Cl,Laboratory,Unit,0,Chloride (Cl),0,1
+"","",SU,Laboratory,Unit,0,Sugar,0,1
+"","",UAC,Laboratory,Unit,0,Urine Acetone,0,1
+"","",HB,Laboratory,Unit,0,Haemoglobin,0,1
+"","",VLDV,Laboratory,Unit,0,VLDL (Serum),0,1
+"","",PPBS,Laboratory,Unit,0,Blood Sugar (PP),0,1
+"","",SGOT ,Laboratory,Unit,0,SGOT / AST,0,1
+"","",MCV,Laboratory,Unit,0,MCV,0,1
+"","",DLC,Laboratory,Unit,0,DLC,0,1
+"","",PCV,Laboratory,Unit,0,PCV,0,1
+"","",TLC,Laboratory,Unit,0,TLC,0,1
+"","",Cortisol,Laboratory,Unit,0,Cortisol,0,1
+"","",ESR,Laboratory,Unit,0,ESR,0,1
+"","",CBC,Laboratory,Unit,0,Complete Haemogram,0,1
+"","",URE,Laboratory,Unit,0,Urine Routine Examination,0,1
+"","",BP,Laboratory,Unit,0,Bile Pigment,0,1
+"","",BSBP,Laboratory,Unit,0,Bile Salt / Pigment,0,1
+"","",BS,Laboratory,Unit,0,Bile Salt,0,1
+"","",RBS,Laboratory,Unit,0,Blood Sugar (Random),0,1
+"","",HBsAg,Laboratory,Unit,0,HBsAg (Card)s,0,1
+"","",HIVC,Laboratory,Unit,0,HIV (CARD),0,1
+"","",GCT,Laboratory,Unit,0,GCT,0,1
+"","",SFER,Laboratory,Unit,0,S.FERRITIN,0,1
 
